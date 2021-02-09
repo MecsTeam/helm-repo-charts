@@ -3,21 +3,31 @@ entries:
   app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-01-25T14:59:56.0950801+02:00"
+    created: "2021-02-09T13:30:18.6789671+02:00"
     description: A Helm chart for generic microservice
     digest: 71796b42b7005681b900c21cd956dedc37e40229856be7c71c8eff1030fa74aa
     name: app
     urls:
-    - app-0.1.0.tgz
+    - https://mecsteam.github.io/helm-repo-charts/app-0.1.0.tgz
+    version: 0.1.0
+  gateway:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2021-02-09T13:30:18.6809525+02:00"
+    description: A Helm chart for generic microservice
+    digest: 5c91efcf0795ddfe08fbed70e29e6a74c1c6a8287559ba64550b67e86715e3c8
+    name: gateway
+    urls:
+    - https://mecsteam.github.io/helm-repo-charts/gateway-0.1.0.tgz
     version: 0.1.0
   postgres:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2021-01-25T14:59:56.0960739+02:00"
+    created: "2021-02-09T13:30:18.6819519+02:00"
     description: A Helm chart for PostgreSQL database
     digest: 501c93a2e5c5ab5a57a230b2693dc62bc7a94fea596a02e958fce9be02f5d60f
     name: postgres
     urls:
-    - postgres-0.1.0.tgz
+    - https://mecsteam.github.io/helm-repo-charts/postgres-0.1.0.tgz
     version: 0.1.0
-generated: "2021-01-25T14:59:56.0950801+02:00"
+generated: "2021-02-09T13:30:18.6739561+02:00"
